@@ -7,19 +7,19 @@ import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   {
-    path: 'https://carlocabanilla23.github.io/MyPortfolio/',
+    path: '',
     component: HomeComponent
   },
   {
-    path: 'https://carlocabanilla23.github.io/MyPortfolio/Portfolio',
+    path: 'Portfolio',
     component: ProjectsComponent
   },
   {
-    path: 'https://carlocabanilla23.github.io/MyPortfolio/CV',
+    path: 'CV',
     component: CvComponent
   },
   {
-    path: 'https://carlocabanilla23.github.io/MyPortfolio/Contact',
+    path: 'Contact',
     component: ContactComponent
   },
 ];
